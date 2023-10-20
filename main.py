@@ -18,7 +18,7 @@ def send_to_api(data):
 
 def main():
     # Display logo
-    logo = Image.open("Logo_FiHogar.png")
+    logo = Image.open("Logo_FiHogar (1).png")
     st.image(logo, use_column_width=True)
     
     st.title("Streamlit Web App to Send Codes to API")
